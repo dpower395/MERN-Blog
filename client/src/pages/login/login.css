@@ -1,0 +1,72 @@
+.login {
+  height: calc(100vh - 50px);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(
+        rgba(255,255,255,0.2),
+        rgba(255,255,255,0.5)
+      ),
+    url("https://www.qantas.com/content/dam/travelinsider/images/travel-tips/your-guide-to-seeing-the-northern-lights/howtoseethenorthernlights.jpg");
+}
+
+.loginTitle {
+  display: flex;
+  padding-bottom: 25px;
+  font-size: 75px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Lora", serif;
+}
+
+.loginForm > label {
+  padding: 10px 0;
+  font-size: 21px;
+}
+
+.loginForm > input {
+  width: 245px;
+  height: 55px;
+  font-size: 18px;
+  border: none;
+  padding-left: 10px;
+}
+
+.loginButton {
+  margin-top: 25px;
+  margin-bottom: 150px;
+  width: 260px;
+  height: 55px;
+  font-size: 20px;
+  color: #FEFECC;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+  background-color: #666;
+}
+
+.loginRegisterButton {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 130px;
+  height: 55px;
+  font-size: 20px;
+  color: #FEFECC;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
